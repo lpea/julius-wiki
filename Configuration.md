@@ -1,0 +1,31 @@
+Julius provides a number of configuration settings that can fix bugs present in Caesar 3 and change the user interface a bit. You can access the configuration through the "Options" button on the main menu.
+
+## User interface changes
+
+### Play intro videos
+
+Checking this option will play the three intro videos when the game starts.
+
+### Extra information in the control panel
+
+Checking this option will show extra information in the Control Panel (sidebar) when you are in the city. Depending on your resolution, this will show:
+
+- Game speed controls
+- Unemployment info (to be implemented)
+- Rating info (to be implemented)
+
+[[images/config-sidebar-info.png]]
+
+## Gameplay changes
+
+### Fix immigration bug on very hard
+
+In Caesar 3, if you play on Very Hard difficulty level, people will get upset with you by default when your population is at least 200. However, any conditions in your city that might improve their happiness, such as no employment, high wages, etc, will not have any effect until your population reaches 300. This means that people will leave your city and you'll never reach 300. This can be overcome by ensuring there is a large number of immigrants on the way to bump you from 200 to over 300 population.
+
+When you check this option, people will not get unhappy until your population reaches 300.
+
+### Fix 100-year-old ghosts
+
+In Caesar 3, when people reach 100 in the census, they are removed from the total population, but still occupy a slot in one of the houses. When you are building eternal cities that last for hundreds of years, these so-called "ghosts" accumulate until your city no longer functions. The only way to prevent ghosts is to prevent people from reaching 100 years old by keeping city health poor.
+
+Checking this option fixes this such that no new ghosts will be created.
