@@ -11,10 +11,18 @@ Checking this option will play the three intro videos when the game starts.
 Checking this option will show extra information in the Control Panel (sidebar) when you are in the city. Depending on your resolution, this will show:
 
 - Game speed controls
-- Unemployment info (to be implemented)
-- Rating info (to be implemented)
+- Unemployment info
+- Rating info
 
 [[images/config-sidebar-info.png]]
+
+### Enable smooth scrolling
+
+Checking this option will scroll the city map in a smoother way: it will scroll by pixel instead of by full tile.
+
+### Improve visual feedback when clearing land
+
+Checking this option will highlight buildings in red when hovering over them when the "clear land" tool is selected.
 
 ## Gameplay changes
 
