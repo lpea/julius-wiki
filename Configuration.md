@@ -24,6 +24,10 @@ Checking this option will scroll the city map in a smoother way: it will scroll 
 
 Checking this option will highlight buildings in red when hovering over them when the "clear land" tool is selected.
 
+### Allow building each temple in succession
+
+Checking this option will add an "All" option to the build menu of small and large temples. Using this will allow you to place the temples to the gods in order without having to re-select the temple from the build menu. Placement order is the following: Ceres, Neptune, Mercury, Mars, Venus.
+
 ## Gameplay changes
 
 ### Fix immigration bug on very hard
