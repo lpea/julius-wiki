@@ -36,4 +36,5 @@ The following hotkeys can be used in the game:
 | `F8` | Anywhere | Resize window to 800x600 |
 | `F9` | Anywhere | Resize window to 1024x768 |
 | `F12` | Anywhere | Take a screenshot of the current window |
+| `Ctrl+F12` | City view | Take screenshot of the entire map. Warning: this file will be very large |
 | `Ctrl+A` | Editor empire map | Toggle distant battle info |
