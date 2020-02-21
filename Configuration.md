@@ -41,3 +41,10 @@ When you check this option, people will not get unhappy until your population re
 In Caesar 3, when people reach 100 in the census, they are removed from the total population, but still occupy a slot in one of the houses. When you are building eternal cities that last for hundreds of years, these so-called "ghosts" accumulate until your city no longer functions. The only way to prevent ghosts is to prevent people from reaching 100 years old by keeping city health poor.
 
 Checking this option fixes this such that no new ghosts will be created.
+
+### Fix Emperor change and survival time in custom missions
+
+In Caesar 3 custom missions, the Change of Emperor event does not do anything other than triggering a message, even though the manual states that favor should be reset to 50.
+For survival time missions, the survival time only works properly when no other win criteria have been set. If there are any other win criteria, the player wins the mission when they are met, instead of having to play until the end of the survival time.
+
+Checking this option will reset favor to 50 on Change of Emperor events, and will force the player to play until the survival time when win criteria have been met.
