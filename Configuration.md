@@ -28,6 +28,13 @@ Checking this option will highlight buildings in red when hovering over them whe
 
 Checking this option will add an "All" option to the build menu of small and large temples. Using this will allow you to place the temples to the gods in order without having to re-select the temple from the build menu. Placement order is the following: Ceres, Neptune, Mercury, Mars, Venus.
 
+
+### Show range when building reservoirs, fountains and wells
+
+Checking this option will allow you to preview the range of reservoirs, fountains and wells when building them:
+
+[[images/config-water-preview.png]]
+
 ## Gameplay changes
 
 ### Fix immigration bug on very hard
