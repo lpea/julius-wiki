@@ -27,6 +27,7 @@ The following hotkeys can be used in the game:
 | `[`, `Page Up` | City view | Increase game speed |
 | `]`, `Page Down` | City view | Decrease game speed |
 | `Enter` | Dialogs with Ok/Cancel buttons | Accept the dialog |
+| `Alt+Enter` | Anywhere | Toggle fullscreen |
 | `Esc`, `Alt+X` | Anywhere | Show quit game dialog - press enter to actually quit |
 | `F1`, `F2`, `F3`, `F4` | City view | Go to bookmark 1-4 |
 | `Ctrl/Shift/Alt + F1/F2/F3/F4` | City view | Set bookmark 1-4 |
