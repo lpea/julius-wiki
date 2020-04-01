@@ -24,8 +24,8 @@ The following hotkeys can be used in the game:
 | `L` | City view | Cycle through legions |
 | `Home` | City view | Rotate map left |
 | `End` | City view | Rotate map right |
-| `[`, `Page Up` | City view | Increase game speed |
-| `]`, `Page Down` | City view | Decrease game speed |
+| `[`, `Page Down` | City view | Decrease game speed |
+| `]`, `Page Up` | City view | Increase game speed |
 | `Enter` | Dialogs with Ok/Cancel buttons | Accept the dialog |
 | `Alt+Enter` | Anywhere | Toggle fullscreen |
 | `Esc`, `Alt+X` | Anywhere | Show quit game dialog - press enter to actually quit |
