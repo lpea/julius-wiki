@@ -60,3 +60,13 @@ In Caesar 3 custom missions, the Change of Emperor event does not do anything ot
 For survival time missions, the survival time only works properly when no other win criteria have been set. If there are any other win criteria, the player wins the mission when they are met, instead of having to play until the end of the survival time.
 
 Checking this option will reset favor to 50 on Change of Emperor events, and will force the player to play until the survival time when win criteria have been met.
+
+## Language packs
+
+If you have another language version of the game, you can add it to Julius and easily switch between languages within the game.
+
+To add a language pack:
+
+1. Create a new folder inside your Caesar 3 installation with the name of the language. It doesn't really matter how you name it, as long as it only contains Latin letters (a-z)
+1. Add the localized files to this folder: the `.eng` files, and optionally create a `wavs` subfolder for the sound files, and a `smk` subfolder for the video files
+1. Start the game, go to Options and select your language folder. To reset it back to your default language, select "(default)"
