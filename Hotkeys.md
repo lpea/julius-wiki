@@ -1,41 +1,74 @@
-The following hotkeys can be used in the game:
+The following hotkeys are enabled by default. If you have a non-US keyboard layout, the position of these hotkeys may differ. You can customize the hotkeys within the game by going to Options -> Configure hotkeys.
 
-| Key | Where | Action |
-| --- | ----- | ------ |
-| `1` | City view | Show labor advisor |
-| `2` | City view | Show military advisor |
-| `3` | City view | Show imperial advisor |
-| `4` | City view | Show ratings advisor |
-| `5` | City view | Show trade advisor |
-| `6` | City view | Show population advisor |
-| `7` | City view | Show health advisor |
-| `8` | City view | Show education advisor |
-| `9` | City view | Show entertainment advisor |
-| `0` | City view | Show religion advisor |
-| `-` | City view | Show financial advisor |
-| `=` | City view | Show chief advisor |
-| `Space` | City view | Toggle current overlay on/off |
-| `P` | City view | Pause/unpause game |
-| `F` | City view | Show fire overlay |
-| `D` | City view | Show damage overlay |
-| `C` | City view | Show crime overlay |
-| `T` | City view | Show problems overlay |
-| `W` | City view | Show water overlay |
-| `L` | City view | Cycle through legions |
-| `Home` | City view | Rotate map left |
-| `End` | City view | Rotate map right |
-| `[`, `Page Down` | City view | Decrease game speed |
-| `]`, `Page Up` | City view | Increase game speed |
-| `Enter` | Dialogs with Ok/Cancel buttons | Accept the dialog |
-| `Alt+Enter` | Anywhere | Toggle fullscreen |
-| `Esc`, `Alt+X` | Anywhere | Show quit game dialog - press enter to actually quit |
-| `F1`, `F2`, `F3`, `F4` | City view | Go to bookmark 1-4 |
-| `Ctrl/Shift/Alt + F1/F2/F3/F4` | City view | Set bookmark 1-4 |
-| `F5` | Anywhere | Center window on the current display |
-| `F6` | Anywhere | Toggle fullscreen |
-| `F7` | Anywhere | Resize window to 640x480 |
-| `F8` | Anywhere | Resize window to 800x600 |
-| `F9` | Anywhere | Resize window to 1024x768 |
-| `F12` | Anywhere | Take a screenshot of the current window |
-| `Ctrl+F12` | City view | Take screenshot of the entire map. Warning: this file will be very large |
-| `Ctrl+A` | Editor empire map | Toggle distant battle info |
+## Global hotkeys
+
+| Key | Alternative | Action |
+| --- | ----------- | ------ |
+| <kbd>Enter</kbd> | | On dialogs with Ok/Cancel buttons: accept the dialog |
+| <kbd>Esc</kbd> | | On dialogs: close dialog. Otherwise: exit game |
+| <kbd>F6</kbd> | <kbd>Alt</kbd> <kbd>Enter</kbd> | Toggle fullscreen |
+| <kbd>F5</kbd> | | Center window |
+| <kbd>F7</kbd> | | Resize window to 640x480 |
+| <kbd>F8</kbd> | | Resize window to 800x600 |
+| <kbd>F12</kbd> | <kbd>Alt</kbd> <kbd>F12</kbd> | Take a screenshot of the current window |
+| <kbd>Ctrl</kbd> <kbd>F12</kbd> | | City view: take screenshot of the entire map |
+| <kbd>Ctrl</kbd> <kbd>O</kbd> | | Load file |
+| <kbd>Ctrl</kbd> <kbd>S</kbd> | | Save file |
+
+## City hotkeys
+
+| Key | Alternative | Action |
+| --- | ----------- | ------ |
+| <kbd>]</kbd> | <kbd>PageUp</kbd> | Increase game speed |
+| <kbd>[</kbd> | <kbd>PageDown</kbd> | Decrease game speed |
+| <kbd>P</kbd> | | Toggle pause |
+| <kbd>L</kbd> | | Cycle through legions |
+| <kbd>Home</kbd> | | Rotate map left |
+| <kbd>End</kbd> | | Rotate map right |
+
+## Advisors
+
+| Key | Alternative | Action |
+| --- | ----------- | ------ |
+| <kbd>1</kbd> | <kbd>Keypad 1</kbd> | Show labor advisor |
+| <kbd>2</kbd> | <kbd>Keypad 2</kbd> | Show military advisor |
+| <kbd>3</kbd> | <kbd>Keypad 3</kbd> | Show imperial advisor |
+| <kbd>4</kbd> | <kbd>Keypad 4</kbd> | Show ratings advisor |
+| <kbd>5</kbd> | <kbd>Keypad 5</kbd> | Show trade advisor |
+| <kbd>6</kbd> | <kbd>Keypad 6</kbd> | Show population advisor |
+| <kbd>7</kbd> | <kbd>Keypad 7</kbd> | Show health advisor |
+| <kbd>8</kbd> | <kbd>Keypad 8</kbd> | Show education advisor |
+| <kbd>9</kbd> | <kbd>Keypad 9</kbd> | Show entertainment advisor |
+| <kbd>0</kbd> | <kbd>Keypad 0</kbd> | Show religion advisor |
+| <kbd>-</kbd> | | Show financial advisor |
+| <kbd>=</kbd> | | Show chief advisor |
+
+## Overlays
+
+| Key | Alternative | Action |
+| --- | ----------- | ------ |
+| <kbd>Space</kbd> | | Toggle current overlay on/off |
+| <kbd>F</kbd> | | Show fire overlay |
+| <kbd>D</kbd> | | Show damage overlay |
+| <kbd>C</kbd> | | Show crime overlay |
+| <kbd>T</kbd> | | Show problems overlay |
+| <kbd>W</kbd> | | Show water overlay |
+
+## City map bookmarks
+
+| Key | Alternative | Action |
+| --- | ----------- | ------ |
+| <kbd>F1</kbd> | | Go to bookmark 1 |
+| <kbd>F2</kbd> | | Go to bookmark 2 |
+| <kbd>F3</kbd> | | Go to bookmark 3 |
+| <kbd>F4</kbd> | | Go to bookmark 4 |
+| <kbd>Ctrl</kbd> <kbd>F1</kbd> | <kbd>Alt</kbd> <kbd>F1</kbd> | Set bookmark 1 |
+| <kbd>Ctrl</kbd> <kbd>F2</kbd> | <kbd>Alt</kbd> <kbd>F2</kbd> | Set bookmark 2 |
+| <kbd>Ctrl</kbd> <kbd>F3</kbd> | <kbd>Alt</kbd> <kbd>F3</kbd> | Set bookmark 3 |
+| <kbd>Ctrl</kbd> <kbd>F4</kbd> | <kbd>Alt</kbd> <kbd>F4</kbd> | Set bookmark 4 |
+
+## Editor
+
+| Key | Alternative | Action |
+| --- | ----------- | ------ |
+| <kbd>Ctrl</kbd> <kbd>A</kbd> | Empire map: toggle distant battle info |
