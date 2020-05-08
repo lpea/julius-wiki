@@ -1,6 +1,8 @@
 The following hotkeys are enabled by default. If you have a non-US keyboard layout, the position of these hotkeys may differ. You can customize the hotkeys within the game by going to Options -> Configure hotkeys.
 
-## Global hotkeys
+## Default hotkeys
+
+### Global hotkeys
 
 | Key | Alternative | Action |
 | --- | ----------- | ------ |
@@ -15,7 +17,7 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 | <kbd>Ctrl</kbd> <kbd>O</kbd> | | Load file |
 | <kbd>Ctrl</kbd> <kbd>S</kbd> | | Save file |
 
-## City hotkeys
+### City hotkeys
 
 | Key | Alternative | Action |
 | --- | ----------- | ------ |
@@ -26,7 +28,7 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 | <kbd>Home</kbd> | | Rotate map left |
 | <kbd>End</kbd> | | Rotate map right |
 
-## Advisors
+### Advisors
 
 | Key | Alternative | Action |
 | --- | ----------- | ------ |
@@ -43,7 +45,7 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 | <kbd>-</kbd> | | Show financial advisor |
 | <kbd>=</kbd> | | Show chief advisor |
 
-## Overlays
+### Overlays
 
 | Key | Alternative | Action |
 | --- | ----------- | ------ |
@@ -54,7 +56,7 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 | <kbd>T</kbd> | | Show problems overlay |
 | <kbd>W</kbd> | | Show water overlay |
 
-## City map bookmarks
+### City map bookmarks
 
 | Key | Alternative | Action |
 | --- | ----------- | ------ |
@@ -67,7 +69,7 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 | <kbd>Ctrl</kbd> <kbd>F3</kbd> | <kbd>Alt</kbd> <kbd>F3</kbd> | Set bookmark 3 |
 | <kbd>Ctrl</kbd> <kbd>F4</kbd> | <kbd>Alt</kbd> <kbd>F4</kbd> | Set bookmark 4 |
 
-## Editor
+### Editor
 
 | Key | Alternative | Action |
 | --- | ----------- | ------ |
