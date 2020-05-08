@@ -47,14 +47,14 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 
 ### Overlays
 
-| Key | Alternative | Action |
-| --- | ----------- | ------ |
-| <kbd>Space</kbd> | | Toggle current overlay on/off |
-| <kbd>F</kbd> | | Show fire overlay |
-| <kbd>D</kbd> | | Show damage overlay |
-| <kbd>C</kbd> | | Show crime overlay |
-| <kbd>T</kbd> | | Show problems overlay |
-| <kbd>W</kbd> | | Show water overlay |
+| Key | Action |
+| --- | ------ |
+| <kbd>Space</kbd> | Toggle current overlay on/off |
+| <kbd>F</kbd> | Show fire overlay |
+| <kbd>D</kbd> | Show damage overlay |
+| <kbd>C</kbd> | Show crime overlay |
+| <kbd>T</kbd> | Show problems overlay |
+| <kbd>W</kbd> | Show water overlay |
 
 ### City map bookmarks
 
@@ -71,6 +71,6 @@ The following hotkeys are enabled by default. If you have a non-US keyboard layo
 
 ### Editor
 
-| Key | Alternative | Action |
-| --- | ----------- | ------ |
+| Key | Action |
+| --- | ------ |
 | <kbd>Ctrl</kbd> <kbd>A</kbd> | Empire map: toggle distant battle info |
