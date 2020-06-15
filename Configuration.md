@@ -40,6 +40,14 @@ Checking this option will display the size when building draggable items, such a
 
 [[images/config-construction-size.png]]
 
+### Highlight legion on cursor hover
+
+Checking this option will highlight a legion in green when it is hovered by the mouse, allowing you to easily understand which legion will be selected in the midst of battle.
+
+In the below image, the mouse cursor is hovering above the legion in the middle:
+
+[[images/highlight-legion.png]]
+
 ## Gameplay changes
 
 ### Fix immigration bug on very hard
