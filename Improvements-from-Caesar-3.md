@@ -1,4 +1,4 @@
-This page lists the overall improvements and changes from Caesar 3 that Julius implements. In addition, there are [optional changes](Configuration) that can be enabled on Main Menu -> Options.
+This page lists the overall improvements and changes from Caesar 3 that Julius implements. In addition, there are [optional changes](Configuration) that can be enabled on Main Menu → Options.
 
 ## General improvements and changes
 
@@ -10,8 +10,8 @@ This page lists the overall improvements and changes from Caesar 3 that Julius i
 - Support for touch devices
 
 ### Keyboard/mouse changes
-- Hotkeys: if you have a non-English version of the game and/or a non-US keyboard layout, hotkeys may not map to the keys you expect. Supporting all different keyboard layouts was impossible. As a result, hotkeys are now configurable through Main Menu -> Options -> Configure hotkeys. Upon first start, the game tries to map the keys as best as it can.
-- Various new hotkeys have been added. Check Main Menu -> Options -> Configure hotkeys for a complete list, and check the [default hotkeys](Hotkeys)
+- Hotkeys: if you have a non-English version of the game and/or a non-US keyboard layout, hotkeys may not map to the keys you expect. Supporting all different keyboard layouts was impossible. As a result, hotkeys are now configurable through Main Menu → Options → Configure hotkeys. Upon first start, the game tries to map the keys as best as it can.
+- Various new hotkeys have been added. Check Main Menu → Options → Configure hotkeys for a complete list, and check the [default hotkeys](Hotkeys)
 - Scroll wheel support in file dialogs, message list, help texts and mission briefings: basically anywhere there's a scroll bar
 - Escape and right-click closes most dialogs
 - Double-click can be used to open files from the file dialog

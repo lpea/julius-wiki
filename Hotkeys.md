@@ -1,4 +1,4 @@
-The following hotkeys are enabled by default. If you have a non-US keyboard layout, the position of these hotkeys may differ. You can customize the hotkeys within the game by going to Options -> Configure hotkeys.
+The following hotkeys are enabled by default. If you have a non-US keyboard layout, the position of these hotkeys may differ. You can customize the hotkeys within the game by going to Options → Configure hotkeys.
 
 ## Default hotkeys
 
