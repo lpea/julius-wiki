@@ -3,10 +3,12 @@ This page lists the overall improvements and changes from Caesar 3 that Julius i
 ## General improvements and changes
 
 ### Technical changes
+- The game window can be fully resized, supporting full HD and every other resolution out of the box
 - Windowed mode now works properly, regardless of your desktop color depth
 - In Windowed mode, scrolling works a bit differently due to technical limitations. You need to place the cursor close to the edge of the Julius window (instead of the edge of your desktop) to scroll the map
 - In fullscreen mode, if you have multiple displays, the mouse cursor is constrainted to the Julius window (except on Mac due to technical issues)
 - Command-line options for changing display and cursor scaling to help with HiDPI monitors
+- Cross-platform: support for operating systems other than Windows, such as Linux, BSD, macOS and even consoles PS Vita and Nintendo Switch
 - Support for touch devices
 
 ### Keyboard/mouse changes
