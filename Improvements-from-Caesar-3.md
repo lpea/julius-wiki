@@ -1,3 +1,5 @@
+This page lists the overall improvements and changes from Caesar 3 that Julius implements. In addition, there are [optional changes](Configuration) that can be enabled on Main Menu -> Options.
+
 ## General improvements and changes
 
 ### Technical changes
