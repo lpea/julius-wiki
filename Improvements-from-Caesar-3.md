@@ -32,11 +32,8 @@ This page lists the overall improvements and changes from Caesar 3 that Julius i
 
 ## City
 
-### Construction improvements
+### Construction and map improvements
 - Building on pause is possible
-- "All" option in the temples menu: this allows you to place temples to all 5 gods in succession. It starts with a temple to Ceres. Once you place it, the selected building becomes a temple to Neptune, then Mercury, then Mars, then Venus, and then back to Ceres. Since most players tend to place temples to all 5 gods in sequence, this option was added.
-
-### Visual changes to the map
 - Roads adjacent to a granary now lead into the granary, to indicate that the granary is part of the road network
 - When deleting aqueducts, the graphics of the adjacent aqueducts are adjusted immediately to match the new configuration. In Caesar 3 you have to rotate the map to update them.
 
@@ -87,3 +84,4 @@ This page lists the overall improvements and changes from Caesar 3 that Julius i
 - Freeze in Carthago during large invasions: when a LOT of soldiers are fighting each other, there was a chance that the game ended up in an infinite loop due to a programming error where memory was not properly cleared. This has been fixed.
 - Gatehouse roads respawning. Build a gatehouse, you get 4 road tiles for free. Remove the roads. Now rotate the map. In Caesar 3, the roads would automatically be placed back, in Julius this no longer happens.
 - Building a reservoir on top of a reservoir no longer costs money
+- A rare occasion where building animations were drawn on earthquake cracks was fixed
