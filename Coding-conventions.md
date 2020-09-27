@@ -1,4 +1,4 @@
-When contributing to the Julius source, please follow the code style used in the project. Formatting conventions will be strictly enforced in pull requests to keep the code-base uniform.
+When contributing to the Julius source, please follow the code style used in the project. Formatting conventions will be strictly enforced in pull requests to keep the code-base uniform. Don't worry about getting them all right the first time, just open a pull request, and if anything needs to change we'll kindly point that out.
 
 ## Code formatting
 
