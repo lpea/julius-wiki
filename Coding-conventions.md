@@ -41,8 +41,6 @@ For UI window files, keep to the following order:
 
 Use `snake_case` for everything. For constants, either `#define` or `const`, use `CAPITAL_SNAKE_CASE` to indicate they're constants.
 
- i, j, k for loops and x and y for position, use descriptive variable names
-
 ### Function names
 
 Public functions should contain the file's location in the first part of their name to make it easy to find them. For example, the function `game_tick_run()` lives in `src/game/tick.c`.
@@ -50,7 +48,14 @@ Static function should NOT contain the file's location and should be given an ap
 
 ### Variable names
 
-Use descriptive names, we're not on a character budget. Single-letter variables are only allowed in these cases: `i`, `j` only in `for` loops, `x` and `y` only for position variables.
+Use descriptive names, we're not on a character budget. Keep single-letter variable to a minimum. Allowed usages include:
+- `i`, `j` as loop variable in `for` loops
+- `x` and `y` for position variables
+- `b` for a pointer to a building struct
+- `f` for a pointer to a figure struct
+- `m` for a pointer to a formation (*m*ob) struct or a mouse struct
+- `t` for a pointer to a touch struct
+- `c` for a pointer to a tooltip context struct
 
 Group file-scoped primitive variables together in an anonymous `data` struct so when using them it's clear they're global and not function-scoped. Example:
 
@@ -63,3 +68,4 @@ Group file-scoped primitive variables together in an anonymous `data` struct so 
 
 - Try to keep the UI and game logic code as separate as possible. Ideally there should be no `#include` to either `window/` or `widget/` files in any of the other files, but it's not always possible.
 - Do not references _any_ of the SDL functions in the game's code outside of the `platform/` directory. This ensures that the core of the game can run without external libraries (for testing, for example), and it doesn't tie the project to SDL. If you really need to call something provided by SDL, create a function in `game/system.h` and put the implementation in one of the files in the `platform/` directory.
+- Keep the code free from compiler warnings where possible.
