@@ -20,6 +20,10 @@ Checking this option will show extra information in the Control Panel (sidebar) 
 
 Checking this option will scroll the city map in a smoother way: it will scroll by pixel instead of by full tile.
 
+### Disable right click to drag the map
+
+One of the features Julius adds is the ability to drag the map by right-clicking it and then dragging the mouse. If that's causing problems with the mouse cursor disappearing (in combination with for example the Steam Overlay or other utility programs), you can turn it off.
+
 ### Improve visual feedback when clearing land
 
 Checking this option will highlight buildings in red when hovering over them when the "clear land" tool is selected.
