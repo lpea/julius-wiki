@@ -2,8 +2,7 @@ Julius is a fully working open-source version of Caesar 3, with the same logic a
 
 ## Running the game
 
-When running the game, you might see messages related to missing files:
-
+- [Command-line options](Command-line-options): a description of the command-line options you can use with Julius
 - [Patches](Patches): if your copy of the game has not been patched to version 1.0.1.0 (also known as version 1.1), you will be prompted to install the patch for your language version. Some languages also need additional files to run in Julius which you can also get from here.
 - [Editor](Editor): using the assignment editor in Julius requires graphics and text files specific to the editor. Some game versions already ship with the editor, if not, you download the files for several languages here.
 
