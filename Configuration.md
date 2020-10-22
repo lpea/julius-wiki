@@ -50,7 +50,13 @@ Checking this option will highlight a legion in green when it is hovered by the 
 
 In the below image, the mouse cursor is hovering above the legion in the middle:
 
-[[images/highlight-legion.png]]
+[[images/config-highlight-legion.png]]
+
+### Enable military sidebar
+
+Checking this option will replace the regular build control panel / sidebar with a military command panel when you select a legion, allowing you to change the formation layout and give other orders without having to right-click the legion to do so.
+
+[[images/config-military-sidebar.png]]
 
 ## Gameplay changes
 
