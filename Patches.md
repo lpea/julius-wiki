@@ -20,6 +20,7 @@ If you don't see your game's language here, please open an [issue](https://githu
 | [Polish](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_polish.zip) | |
 | [Portuguese (Brazilian)](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_portuguese_br.zip) | |
 | [Russian](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_russian.zip) | 1C edition |
+| [Simplified Chinese](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_simplified_chinese.zip) | Required for compatibility with Julius: contains message and font fixes |
 | [Spanish](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_spanish.zip) | Official Sierra patch |
 | [Swedish](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_swedish.zip) | Also contains fixes for å not displaying properly |
 
