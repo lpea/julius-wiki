@@ -8,13 +8,13 @@ and `git`.
     a. For a Debian-based Linux distribution, open a `Terminal` window and type
        `sudo apt install git`
 
-    b. For Mac OS, follow [installing the command line developer tools](Building-for-MacOS.md#installing-the-command-line-developer-tools)
+    b. For Mac OS, follow [installing the command line developer tools](Building-for-MacOS#installing-the-command-line-developer-tools)
        in the Mac OS section
 
-    c. For Windows, follow [installing Git for Windows](Building-for-Windows.md#installing-git-for-windows-optional)
+    c. For Windows, follow [installing Git for Windows](Building-for-Windows#installing-git-for-windows-optional)
        in the Windows section
 
-2. To install `docker`, check [installing `docker`](Installing-Docker.md).
+2. To install `docker`, check [installing `docker`](Installing-Docker).
 
 
 ## Building Julius

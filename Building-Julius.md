@@ -28,8 +28,8 @@ See [Running Julius](https://github.com/bvschaik/julius/blob/master/doc/RUNNING.
 
 For detailed building instructions, please check out the respective page:
 
-- [Building for Windows](Building-for-Windows.md)
-- [Building for Linux](Building-for-Linux.md)
-- [Building for Mac](Building-for-MacOS.md)
-- [Building for Playstation Vita](Building-for-Vita.md)
-- [Building for Nintendo Switch](Building-for-Switch.md)
+- [Building for Windows](Building-for-Windows)
+- [Building for Linux](Building-for-Linux)
+- [Building for Mac](Building-for-MacOS)
+- [Building for Playstation Vita](Building-for-Vita)
+- [Building for Nintendo Switch](Building-for-Switch)

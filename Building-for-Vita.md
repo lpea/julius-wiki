@@ -13,7 +13,7 @@
     c. For Windows, follow [installing Git for Windows](Building-for-Windows#installing-git-for-windows-optional)
        in the Windows section
 
-2. To install `docker`, check [installing `docker`](Installing-Docker.md).
+2. To install `docker`, check [installing `docker`](Installing-Docker).
 
 
 ## Building Julius

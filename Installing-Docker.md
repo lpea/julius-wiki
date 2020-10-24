@@ -19,8 +19,8 @@ To install `docker` for Debian-based Linux distributions, do the following:
         $ sudo usermod -aG docker $USER
         $ su - $USER
 
-Then proceed to building Julius, either for [Nintendo Switch](Building-for-Switch.md#building-julius) or for the
-[PS Vita](Building-for-Vita.md#building-julius).
+Then proceed to building Julius, either for [Nintendo Switch](Building-for-Switch#building-julius) or for the
+[PS Vita](Building-for-Vita#building-julius).
 
 ----------------------------------------------------------------------------
 
@@ -30,5 +30,5 @@ If you have a different Linux distribution or a different operating system, plea
 * [Installing `docker` on Mac OS](https://docs.docker.com/docker-for-mac/install/);
 * For another Linux distribution, check the official page on [installing `docker`](https://docs.docker.com/install/).
 
-Then proceed to building Julius, either for [Nintendo Switch](Building-for-Switch.md#building-julius) or for the
-[PS Vita](Building-for-Vita.md#building-julius).
+Then proceed to building Julius, either for [Nintendo Switch](Building-for-Switch#building-julius) or for the
+[PS Vita](Building-for-Vita#building-julius).

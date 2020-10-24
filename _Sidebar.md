@@ -10,5 +10,5 @@ Additional downloads
 - [Editor](Editor)
 
 For developers
-- [Building Julius](Building-Julius.md)
-- [Coding conventions](Coding-conventions.md)
+- [Building Julius](Building-Julius)
+- [Coding conventions](Coding-conventions)
