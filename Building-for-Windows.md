@@ -22,16 +22,13 @@ You have two main options in how you want to build Julius. You can either:
 	* Open the [SDL2_mixer download page](https://www.libsdl.org/projects/SDL_mixer/)
     * In the section `Development Libraries`, select `SDL2_mixer-devel-2.0.4-VC.zip (Visual C++ 32/64-bit)`
 
-4. Extract the `SDL2` and `SDL2_mixer` development libraries to an easy to remember folder
-   (I recommend something like `C:\libs`).
-
-5. Open Microsoft Visual Studio. Select `Clone or check out code`.
+4. Open Microsoft Visual Studio. Select `Clone or check out code`.
 
  	![Visual Studio 2019 Startup window](images/building-windows-msvc-1.png)
 
-6. In the `Repository location` option, type `https://github.com/bvschaik/julius.git`.
+5. In the `Repository location` option, type `https://github.com/bvschaik/julius.git`.
    In the `Local path` option, select in which folder you wish the source to be downloaded to.
-   This will be your `work folder`:
+   This will be your `<work folder>`:
 
     ![Visual Studio 2019 Clone or check out code window](images/building-windows-msvc-2.png)
 
@@ -39,45 +36,36 @@ You have two main options in how you want to build Julius. You can either:
     integration. Check [obtaining the source files for Julius](#obtaining-the-source-files-for-julius)
     for details.
 
-7. The first time you open the project, Visual Studio will throw an error complaining it can't
+6. The first time you open the project, Visual Studio will throw an error complaining it can't
    find SDL:
 
 	![Visual Studio 2019 SDL not found error](images/building-windows-msvc-3.png)
 
-8. You will need to tell Visual Studio where the SDL libraries you downloaded can be found.
-   To do that, click up top where it says `x64-Debug` and select `Manage Configurations`.
+7. You will need to extract the SDL libraries you already downloaded to a specific directory. To do so, extract the `SDL2` and `SDL2_mixer` development libraries you already downloaded to `<work folder>\ext\SDL2`.
 
-9. On the new screen that appears, scroll down to `CMake Command Arguments`.
+    If you extracted the libraries to the correct place, your `<work folder>\ext\SDL2` should look like this:
 
-10. Paste the location of your library paths. If you used the above example paths,
-    then paste the following code:
+    ![SDL2 folder contents](images/building-windows-ext-folder.png)
 
-	`-DCMAKE_PREFIX_PATH=C:\libs\SDL2-devel-2.0.12-VC\SDL2-2.0.12;C:\libs\SDL2_mixer-devel-2.0.4-VC\SDL2_mixer-2.0.4`
+8. After extracting the files, on Visual Studio, go to `Project → Generate Cache for julius`. The build configuration should complete successfully and the error should disappear.
 
-	Notice that you must always include `-DCMAKE_PREFIX_PATH=` at the start.
-
-	![Visual Studio 2019 video adding cmake settings](images/building-windows-msvc-4.gif)
-
-11. Press `CTRL` + `S` to save the configuration. Visual Studio will attempt to reconfigure
-    everything, and this time it should detect the libraries and work.
-
-12. Pick `Select Startup Item` up top and select `julius.exe`.
+9. Pick `Select Startup Item` up top and select `julius.exe`.
 
 	![Visual Studio 2019 selecting startup item](images/building-windows-msvc-5.gif)
 
-13. Go to `Build → Build All`. The game should compile without errors.
+10. Go to `Build → Build All`. The game should compile without errors.
 
-14. After the game compiles, it is stored in a folder inside your `work folder`. You can access
-    it from `work folder\out\build\x64-Debug`.
+11. After the game compiles, it is stored in a folder inside your `<work folder>`. You can access
+    it from `<work folder>\out\build\x64-Debug`.
 
-15. If you simply execute the game right now, it will complain about missing DLL's. You need
+12. If you simply execute the game right now, it will complain about missing DLL's. You need
     to copy the `SDL2` and `SDL2_mixer` DLL's to the same directory as the executable.
 
 	Both libraries are available inside your library directory. Using the example library
     location, the files should be in the following location:
 
-	* `SDL2` - `C:\libs\SDL2-2.0.12\lib\x64`
-	* `SDL2_mixer` - `C:\libs\SDL2_mixer-2.0.4\lib\x64`
+	* `SDL2` - `<work folder>\SDL2-2.0.12\lib\x64`
+	* `SDL2_mixer` - `<work folder>\SDL2_mixer-2.0.4\lib\x64`
 
 **Success!** You should now be able to run the game.
 
@@ -142,27 +130,6 @@ which provides an user interface as well as the command line tools. The default 
 options are enough for Julius.
 
 
-### Obtaining SDL2 and SDL2_mixer
-
-1. Download the `SDL2` development library as a gzipped file:
-
-	* Open the [SDL2 download page](https://www.libsdl.org/download-2.0.php)
-    * In the section `Development Libraries`, select `SDL2-devel-2.0.12-mingw.tar.gz (MinGW 32/64-bit)`
-
-2. Download the `SDL2_mixer` development library as a gzipped file:
-
-	* Open the [SDL2_mixer download page](https://www.libsdl.org/projects/SDL_mixer/)
-    * In the section `Development Libraries`, select `SDL2_mixer-devel-2.0.4-mingw.tar.gz (MinGW 32/64-bit)`
-
-3. Extract the `SDL2` and `SDL2_mixer` development libraries to an easy to remember folder
-   (I recommend something like `C:\libs`).
-
-    * If you can't extract `.tar.gz` files, [obtain 7-Zip](https://www.7-zip.org/).
-    * For each one of the downloaded libraries, after opening the `.gz` file in 7-Zip, open the
-      single `.tar` file that appears on the 7-Zip window and extract its contents:
-
-        ![MinGW-w64 extracting SDL](images/building-windows-mingw-4.gif)
-
 ### Obtaining the source files for Julius
 
 You have two options regarding on how to obtain the source code for Julius.
@@ -173,7 +140,7 @@ any updates to the game which you wish to build yourself. So only directly downl
 source if you're sure you want to do it just once.
 
 Still, if you download the contents as a zip file, extract them to a folder, which will be
-your `work folder`. You can now proceed to [build Julius](#building-julius).
+your `<work folder>`. You can now proceed to [build Julius](#building-julius).
 
 The best approach, however, is to use Git for Windows, since it allows you to keep up with
 changes to the source code.
@@ -192,13 +159,40 @@ To obtain the source from Git, follow the following steps:
 
         > git clone https://github.com/bvschaik/julius.git
 
+4. The source files will be downloaded to a folder called `julius` inside the folder where you ran the command. That `julius` folder will be referred to as `<work folder>`.
+
 **Optional:** If you already have the source files from Git and simply wish to update them
 (in order to build a newer version), repeat above steps 1. and 2. and type:
 
         > git pull origin master
 
-If you then wish to proceed building Julius, delete the `build` folder and proceed to
+Then, assuming you have already obtained the `SDL2` and `SDL2_mixer` libraries and added them to the `ext` folder, if you wish to proceed building Julius, delete the `build` folder and proceed to
 [build Julius](#building-julius) normally.
+
+
+### Obtaining SDL2 and SDL2_mixer
+
+1. Download the `SDL2` development library as a gzipped file:
+
+	* Open the [SDL2 download page](https://www.libsdl.org/download-2.0.php)
+    * In the section `Development Libraries`, select `SDL2-devel-2.0.12-mingw.tar.gz (MinGW 32/64-bit)`
+
+2. Download the `SDL2_mixer` development library as a gzipped file:
+
+	* Open the [SDL2_mixer download page](https://www.libsdl.org/projects/SDL_mixer/)
+    * In the section `Development Libraries`, select `SDL2_mixer-devel-2.0.4-mingw.tar.gz (MinGW 32/64-bit)`
+
+3. Extract the `SDL2` and `SDL2_mixer` development libraries to `<work folder>\ext\SDL2`.
+
+    * If you can't extract `.tar.gz` files, [obtain 7-Zip](https://www.7-zip.org/).
+    * For each one of the downloaded libraries, after opening the `.gz` file in 7-Zip, open the
+      single `.tar` file that appears on the 7-Zip window and extract its contents:
+
+        ![MinGW-w64 extracting SDL](images/building-windows-mingw-4.gif)
+
+4. If everything went correctly, your `<work folder>\ext\SDL2` should look like this:
+
+    ![SDL2 folder contents](images/building-windows-ext-folder.png)
 
 
 ### Building Julius
@@ -215,11 +209,7 @@ If you then wish to proceed building Julius, delete the `build` folder and proce
 
 4. Run `cmake`:
 
-        > cmake .. -G "MinGW Makefiles" "-DCMAKE_PREFIX_PATH=C:\libs\SDL2-2.0.12\i686-w64-mingw32;C:\libs\SDL2_mixer-2.0.4\i686-w64-mingw32"
-
-    Replace the contents of `-DCMAKE_PREFIX_PATH=` with the location of the folders where
-    you extracted `SDL2` and `SDL2_mixer` to, and be sure to add the `i686-w64-mingw32`
-    at the end of both locations.
+        > cmake .. -G "MinGW Makefiles" 
 
 5. Build Julius:
 
@@ -237,8 +227,8 @@ If you then wish to proceed building Julius, delete the `build` folder and proce
 	Both libraries are available inside your library directory. Using the example library
     location, the files should be in the following location:
 
-	* `SDL2` - `C:\libs\SDL2-2.0.12\i686-w64-mingw32\bin`
-	* `SDL2_mixer` - `C:\libs\SDL2_mixer-2.0.4\i686-w64-mingw32\bin`
+	* `SDL2` - `<work folder>\ext\SDL2\SDL2-2.0.12\i686-w64-mingw32\bin`
+	* `SDL2_mixer` - `<work folder>\ext\SDL2\SDL2_mixer-2.0.4\i686-w64-mingw32\bin`
 
 
 **Success!** You should now be able to run the game.

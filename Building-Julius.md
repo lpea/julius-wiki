@@ -33,3 +33,4 @@ For detailed building instructions, please check out the respective page:
 - [Building for Mac](Building-for-MacOS)
 - [Building for Playstation Vita](Building-for-Vita)
 - [Building for Nintendo Switch](Building-for-Switch)
+- [Building for Android](Building-for-Android)
