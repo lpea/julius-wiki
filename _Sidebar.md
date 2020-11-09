@@ -3,6 +3,7 @@ Julius information
 - [Command-line options](Command-line-options)
 - [Configuration](Configuration)
 - [Hotkeys](Hotkeys)
+- [Touch Support](Touch-Support)
 - [MP3 Support](MP3-Support)
 
 Additional downloads
