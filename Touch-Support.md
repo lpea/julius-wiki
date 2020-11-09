@@ -107,5 +107,3 @@ without having to confirm by clicking again.
 
 Touch actions override mouse actions. If you are touching the screen and moving the mouse, the mouse
 cursor will not move.
-In the city window, if nothing is being built, you can drag the finger to scroll the map. This also
-works for the empire view.
