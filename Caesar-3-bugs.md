@@ -22,4 +22,4 @@ If you have one dock and are trading with two cities, it is possible that (1) yo
 
 ## More original bugs
 
-For a more comprehensive list of original bugs, along with their current status, please check the [original bug issue reports](https://github.com/bvschaik/julius/issues/labels/original%20bug).
+For a more comprehensive list of original bugs, along with their current status, please check the [original bug issue reports](https://github.com/bvschaik/julius/issues/labels/original%20issue%20from%20c3).
