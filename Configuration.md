@@ -1,5 +1,16 @@
 Julius provides a number of configuration settings that can fix bugs present in Caesar 3 and change the user interface a bit. You can access the configuration through the "Options" button on the main menu.
 
+## Display options
+
+### Display scale
+
+This slider controls the 'zoom' of the display, which acts the same as the scale options provided in Windows. For example, if you are playing on a 1920x1080 monitor but you find things too small, you can increase the scale to 150% to play at the equivalent of 1280x720, or to 200% which is the equivalent of 960x540. This option can also be used to fix tiny graphics caused by 4k displays.
+The maximum zoom is limited by the size of the current window: Julius requires a minimum resolution of 640x480.
+
+### Cursor scale
+
+Similar to display scale: this slider controls how big the mouse cursor appears on the screen. Setting it to 200% will double the size of the cursor. This option can be used to fix the wrong cursor size caused by 4k displays.
+
 ## User interface changes
 
 ### Play intro videos
