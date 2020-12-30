@@ -10,11 +10,15 @@ Julius supports some command-line options. Its usage is:
 
     `NUMBER`can be any number between `0.5` and `5`. The default is `1`.
 
+    Starting with Julius 1.6.0 this can also be set in the [configuration options](Configuration#display-scale).
+
 * `--cursor-scale NUMBER`
 
     Optional. Scales the mouse cursor by a factor of `NUMBER`. Cursor scaling is independent of display scaling.
 
     `NUMBER` can only be set to `1`, `1.5` or `2`. The default is `1`.
+
+    Starting with Julius 1.6.0 this can also be set in the [configuration options](Configuration#cursor-scale).
 
 * `--windowed`
 
