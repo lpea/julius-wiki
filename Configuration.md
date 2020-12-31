@@ -85,6 +85,8 @@ Checking this option fixes this such that no new ghosts will be created.
 
 ### Fix Emperor change and survival time in custom missions
 
+This option has been removed in 1.6.0.
+
 In Caesar 3 custom missions, the Change of Emperor event does not do anything other than triggering a message, even though the manual states that favor should be reset to 50.
 For survival time missions, the survival time only works properly when no other win criteria have been set. If there are any other win criteria, the player wins the mission when they are met, instead of having to play until the end of the survival time.
 
