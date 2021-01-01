@@ -19,9 +19,10 @@ This page lists the overall improvements and changes from Caesar 3 that Julius i
 - Double-click can be used to open files from the file dialog
 - Multi-language: when using Julius with a Korean or Chinese version of the game, entering native text is now supported
 
-### File dialog
+### File dialog and City Construction Kit
 - Files are now listed in proper alphabetical order, not by first letter only
-- The limit of 100 files has been removed: all saved games will now show up in the list
+- The limit of 100 files has been removed: all saved games/scenarios will now show up in the list
+- City Construction Kit shows the minimap of the selected scenario
 
 ### Other
 - Screenshot support. Default hotkey is F12 for a normal screenshot, and Ctrl + F12 for a full-city screenshot. Both are saved as PNG files in your Caesar 3 folder
@@ -34,14 +35,17 @@ This page lists the overall improvements and changes from Caesar 3 that Julius i
 
 ### Construction and map improvements
 - Building on pause is possible
-- Roads adjacent to a granary now lead into the granary, to indicate that the granary is part of the road network
+- Roads adjacent to a granary or access ramp now lead into the granary/access ramp, to indicate that the granary/access ramp is part of the road network
 - When deleting aqueducts, the graphics of the adjacent aqueducts are adjusted immediately to match the new configuration. In Caesar 3 you have to rotate the map to update them.
+- Plaza are green when trying to build them over a road with people on it. In Caesar 3 they are red but can still be placed.
+- Fountains are red when they cannot be placed, but they still indicate whether that tile has reservoir access. In Caesar 3 they always showed up as green.
 
 ### Building info improvements
 
-- "Accept none" button on granaries and warehouses: hit the little "x" button to set all resources to "Not accepting". This also includes any resources that will be added later if you open a trade route.
+- "Accept none" button on granaries and warehouses: hit the little "x" button to set all resources to "Not accepting". This also includes any resources that will become available later if you open a trade route.
 - Mission post and fountain show the number of workers needed
 - Amphitheater now has a right-click sound
+- Granary shows cart status when it's out getting food
 
 ### Walker info improvements
 - Prefects are more talkative. Instead of always saying "no sign of crime around here", they now alternate between crime info and general city info, and during fights they also talk.
