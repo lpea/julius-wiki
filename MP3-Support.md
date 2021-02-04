@@ -2,7 +2,7 @@ Julius supports the playback of MP3 files instead of the original, low-quality w
 
 If you have the high-quality MP3 files that were once available from the Sierra Website, you can play them instead of the original files. Alternatively, you can play any MP3 file you like instead of the original music.
 
-[Download the original five city background MP3 files](https://bintray.com/bvschaik/caesar3-music/mp3#files).
+[Download the original five city background MP3 files](https://github.com/bvschaik/julius-support/releases/tag/music).
 
 ## Requirements
 
