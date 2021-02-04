@@ -12,15 +12,15 @@ If you don't see your game's language here, please open an [issue](https://githu
 
 | Language | Notes |
 | -------- | ------|
-| [English (US)](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_english.zip) | Official Sierra patch |
-| [French](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_french.zip) | Official Sierra patch |
-| [German](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_german.zip) | Official Sierra patch |
-| [Italian](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_italian.zip) | Official Sierra patch |
-| [Korean](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_korean.zip) | Required for compatibility with Julius: contains extra font files |
-| [Polish](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_polish.zip) | |
-| [Portuguese (Brazilian)](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_portuguese_br.zip) | |
-| [Russian](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_russian.zip) | 1C edition |
-| [Simplified Chinese](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_simplified_chinese.zip) | Required for compatibility with Julius: contains message and font fixes |
-| [Spanish](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_spanish.zip) | Official Sierra patch |
-| [Swedish](https://bintray.com/bvschaik/caesar3-patches/download_file?file_path=caesar3_update_swedish.zip) | Also contains fixes for å not displaying properly |
+| [English (US)](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_english.zip) | Official Sierra patch |
+| [French](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_french.zip) | Official Sierra patch |
+| [German](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_german.zip) | Official Sierra patch |
+| [Italian](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_italian.zip) | Official Sierra patch |
+| [Korean](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_korean.zip) | Required for compatibility with Julius: contains extra font files |
+| [Polish](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_polish.zip) | |
+| [Portuguese (Brazilian)](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_portuguese_br.zip) | |
+| [Russian](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_russian.zip) | 1C edition |
+| [Simplified Chinese](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_simplified_chinese.zip) | Required for compatibility with Julius: contains message and font fixes |
+| [Spanish](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_spanish.zip) | Official Sierra patch |
+| [Swedish](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_swedish.zip) | Also contains fixes for å not displaying properly |
 
