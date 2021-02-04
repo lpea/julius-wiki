@@ -8,6 +8,6 @@ Extract the contents of the zip file for your language to the folder where your 
 
 The editor does not need to be in the same language of the game: you can have a Spanish version of the game with an English editor.
 
-* [English](https://bintray.com/bvschaik/caesar3-editor/download_file?file_path=caesar3_map_editor.zip)
-* [French](https://bintray.com/bvschaik/caesar3-editor/download_file?file_path=caesar3_map_editor_fr.zip)
-* [German](https://bintray.com/bvschaik/caesar3-editor/download_file?file_path=caesar3_map_editor_de.zip)
+* [English](https://github.com/bvschaik/julius-support/releases/download/editor/caesar3_map_editor_english.zip)
+* [French](https://github.com/bvschaik/julius-support/releases/download/editor/caesar3_map_editor_french.zip)
+* [German](https://github.com/bvschaik/julius-support/releases/download/editor/caesar3_map_editor_german.zip)
