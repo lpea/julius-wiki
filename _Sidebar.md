@@ -1,5 +1,6 @@
 Julius information
 - [Improvements from Caesar 3](Improvements-from-Caesar-3)
+- [Running Julius](Running-Julius)
 - [Command-line options](Command-line-options)
 - [Configuration](Configuration)
 - [Hotkeys](Hotkeys)
