@@ -3,6 +3,7 @@ Julius is a fully working open-source version of Caesar 3, with the same logic a
 ## Julius-specific information
 
 - [Improvements from Caesar 3](Improvements-from-Caesar-3): Julius adds several mostly visual enhancements.
+- [Running Julius](Running-Julius): how to get Julius to run
 - [Command-line options](Command-line-options): a description of the command-line options you can use with Julius.
 - [Configuration](Configuration): Julius contains additional optional behaviours and gameplay changes.
 - [Hotkeys](Hotkeys): in Julius, you can configure the hotkeys yourself, learn how.
