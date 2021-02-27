@@ -1,7 +1,7 @@
 Julius supports Windows Vista and higher. Windows XP has limited support.
 
-1. Install Caesar 3 using the provided installer (GOG/Steam/CD-ROM).
-2. Download the [latest release](https://github.com/bvschaik/julius/releases/latest) of Julius or compile from source.
+1. Install Caesar 3 using the provided installer (GOG/Steam/CD-ROM). When installing from CD-ROM, please select the "Full installation" option, otherwise you'll experience missing sound and videos.
+2. Download the [latest release](Julius-release) of Julius or compile from source.
 3. Copy julius.exe, SDL2.dll, SDL2_mixer.dll and libmpg123.dll to the folder where you installed Caesar 3
 4. Run Julius
 
