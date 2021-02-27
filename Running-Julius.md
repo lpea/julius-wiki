@@ -1,4 +1,4 @@
-Julius requires the original Caesar 3 files to run. This can be an old CD-ROM version, or a digital copy
+Julius requires the original Caesar 3 files to run. This can be an old CD-ROM version (use the "Full installation" option), or a digital copy
 from either [GOG](https://www.gog.com/game/caesar_3) or
 [Steam](https://store.steampowered.com/app/517790/Caesar_3/).
 
