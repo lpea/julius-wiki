@@ -20,7 +20,8 @@ If you don't see your game's language here, please open an [issue](https://githu
 | [Polish](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_polish.zip) | |
 | [Portuguese (Brazilian)](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_portuguese_br.zip) | Official patch, includes fan-provided voices for traders by Horieber Oliveira which were missing in the original |
 | [Russian](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_russian.zip) | 1C edition |
-| [Simplified Chinese](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_simplified_chinese.zip) | Required for compatibility with Julius: contains message and font fixes |
+| [Simplified Chinese](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_simplified_chinese.zip) | Required for compatibility with Julius: contains message and a better readable font |
 | [Spanish](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_spanish.zip) | Official Sierra patch |
 | [Swedish](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_swedish.zip) | Also contains fixes for å not displaying properly |
+| [Traditional Chinese](https://github.com/bvschaik/julius-support/releases/download/patches/caesar3_update_traditional_chinese.zip) | Required for compatibility with Julius: contains a better readable font |
 
