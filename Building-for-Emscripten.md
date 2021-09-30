@@ -1,11 +1,6 @@
-## Prerequesites
+## Prerequisites
 
-**Note:** In order to build Julius for the Nintendo Switch, you'll need to install `docker`
-and `git`.
-
-Instead of docker you can directly use [devkitPro](https://devkitpro.org), but its installation
-and configuration are beyond the scope of this page.
-
+**Note:** In order to build Julius for Emscripten, you'll need to install and `git` and `emsdk`.
 
 1. Installing `git`:
 
@@ -18,7 +13,9 @@ and configuration are beyond the scope of this page.
     c. For Windows, follow [installing Git for Windows](Building-for-Windows#installing-git-for-windows-optional)
        in the Windows section
 
-2. To install `docker`, check [installing `docker`](Installing-Docker).
+2. Installing `emsdk`.
+
+    a. Open a Console window and navigate to the directory where you want 
 
 
 ## Building Julius
@@ -54,19 +51,34 @@ and configuration are beyond the scope of this page.
 
     d. Proceed to step 5.
 
-5. Obtain the proper `docker` image for Switch development.
 
-        $ docker run -d --name switchdev --workdir /build/git -v "${PWD}:/build/git" devkitpro/devkita64:20200730 tail -f /dev/null
+5. Create a `build` directory and move to it:
 
-6. Use `docker` to create the `build` directory and configure `cmake`:
+        $ mkdir build && cd build
 
-        $ docker exec switchdev /bin/bash -c "mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DTARGET_PLATFORM=switch .."
+7. Run `cmake`:
 
-7. Build Julius using `docker`:
+        $ cmake -DCMAKE_BUILD_TYPE=Release -DTARGET_PLATFORM=emscripten -DEMSCRIPTEN_LOAD_SDL_PORTS=1 ..
 
-        $ docker exec switchdev /bin/bash -c "cd build && make"
+    Note the special `EMSCRIPTEN_LOAD_SDL_PORTS`. If you don't add that option, cmake will search
+    for SDL2, SDL2_mixer and libmpg123 libraries built by yourself, which are a hassle to compile
+    for emscripten on your own.
+
+8. Build Julius:
+
+        $ make
+
+5. Create the `build` directory and configure `cmake`:
+
+        $ mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DTARGET_PLATFORM=emscripten -DEMSCRIPTEN_LOAD_SDL_PORTS=1 ..
+
+
+
+7. Build Julius:
+
+        $ docker exec vitasdk /bin/bash -c "cd build && make"
 
 **Success!** Julius should have been built without any errors. There should be a file called
-`julius.nro`, as well as `julius_switch.zip` in the `build` folder.
+`julius.vpk` in the `build` folder.
 
-See [running Julius on Switch](https://github.com/bvschaik/julius/blob/master/doc/RUNNING.md#switch) in order to install Julius to the Nintendo Switch.
+See [running Julius on Vita](https://github.com/bvschaik/julius/blob/master/doc/RUNNING.md#vita) in order to install Julius to the Playstation Vita.

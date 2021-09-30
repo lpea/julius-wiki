@@ -17,12 +17,13 @@ This results in a `julius` executable.
 
 See [Running Julius](https://github.com/bvschaik/julius/blob/master/doc/RUNNING.md) for instructions on how to configure Julius for your platform.
 
+
 ## CMake options
 
 - `-DSYSTEM_LIBS=OFF` - use the bundled copies of optional libraries even if a system version is available
-- `-DVITA_BUILD=ON` - build for Vita
-- `-DSWITCH_BUILD=ON` - build for Switch
-- `-DANDROID_BUILD=ON` - build for Android
+- `-DTARGET_PLATFORM` - the platform you're building for. Can be `vita`, `switch`, `android` or `emscripten`. Please refer to the specific building pages for more detailed instructions
+- `-DDRAW_FPS=OFF` - whether to show the current fps on the city screen
+
 
 ## Detailed instructions
 

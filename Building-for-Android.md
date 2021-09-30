@@ -59,12 +59,12 @@ Therefore, before building Julius, the SDL source must be made available for the
 1. Download the `SDL2` source code:
 
 	* Open the [SDL2 download page](https://www.libsdl.org/download-2.0.php)
-    * In the section `Source Code`, select `SDL2-2.0.12.zip` (for Windows) or `SDL2-2.0.12.tar.gz` (for Linux)
+    * In the section `Source Code`, select `SDL2-2.0.16.zip` (for Windows) or `SDL2-2.0.16.tar.gz` (for Linux)
     * Open the downloaded file
     * Extract its entire contents to the `<work folder>\ext\SDL2` folder
 
-        **Note:** You should extract the compressed file's top level folder. So, for SDL 2.0.12, you should end up only with
-                  the folder `SDL2-2.0.12` in the folder `<work folder>\ext\SDL2`
+        **Note:** You should extract the compressed file's top level folder. So, for SDL 2.0.16, you should end up only with
+                  the folder `SDL2-2.0.16` in the folder `<work folder>\ext\SDL2`
 
 2. Download the `SDL2_mixer` development library as a zip file:
 
@@ -76,7 +76,7 @@ Therefore, before building Julius, the SDL source must be made available for the
         **Note:** You should extract the compressed file's top level folder. So, for SDL Mixer 2.0.4, you should end up only with
                   the folder `SDL2_mixer-2.0.4` in the folder `<work folder>\ext\SDL2`
 
-    Here's how your `<work folder>\ext\SDL2` should look at the end:
+    Here's how your `<work folder>\ext\SDL2` should look at the end (never mind the outdated versions displayed):
 
     ![SDL2 folder contents](images/building-windows-ext-folder.png)
 

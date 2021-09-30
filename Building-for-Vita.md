@@ -2,6 +2,9 @@
 
 **Note:** In order to build Julius for the PS Vita, you'll need to install `docker` and `git`.
 
+Instead of docker you can directly use [VitaSDK](https://vitasdk.org), but its installation
+and configuration are beyond the scope of this page.
+
 1. Installing `git`:
 
     a. For a Debian-based Linux distribution, open a `Terminal` window and type
@@ -49,14 +52,13 @@
 
     d. Proceed to step 5.
 
-5. Obtain the proper `docker` image for Vita development. Special thanks to @devnoname120
-   for providing it.
+5. Obtain the proper `docker` image for Vita development.
 
-        $ docker run -d --name vitasdk --workdir /build/git -v "${PWD}:/build/git" gnuton/vitasdk-docker:20190626 tail -f /dev/null
+        $ docker run -d --name vitasdk --workdir /build/git -v "${PWD}:/build/git" gnuton/vitasdk-docker:20210217 tail -f /dev/null
 
 6. Use `docker` to create the `build` directory and configure `cmake`:
 
-        $ docker exec vitasdk /bin/bash -c "mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DVITA_BUILD=ON .."
+        $ docker exec vitasdk /bin/bash -c "mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DTARGET_PLATFORM=vita .."
 
 7. Build Julius using `docker`:
 

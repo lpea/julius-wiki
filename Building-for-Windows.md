@@ -15,7 +15,7 @@ You have two main options in how you want to build Julius. You can either:
 2. Download the `SDL2` development library as a zip file:
 
 	* Open the [SDL2 download page](https://www.libsdl.org/download-2.0.php)
-    * In the section `Development Libraries`, select `SDL2-devel-2.0.12-VC.zip (Visual C++ 32/64-bit)`
+    * In the section `Development Libraries`, select `SDL2-devel-2.0.16-VC.zip (Visual C++ 32/64-bit)`
 
 3. Download the `SDL2_mixer` development library as a zip file:
 
@@ -43,7 +43,7 @@ You have two main options in how you want to build Julius. You can either:
 
 7. You will need to extract the SDL libraries you already downloaded to a specific directory. To do so, extract the `SDL2` and `SDL2_mixer` development libraries you already downloaded to `<work folder>\ext\SDL2`.
 
-    If you extracted the libraries to the correct place, your `<work folder>\ext\SDL2` should look like this:
+    If you extracted the libraries to the correct place, your `<work folder>\ext\SDL2` should look like this (never mind the outdated versions displayed):
 
     ![SDL2 folder contents](images/building-windows-ext-folder.png)
 
@@ -64,7 +64,7 @@ You have two main options in how you want to build Julius. You can either:
 	Both libraries are available inside your library directory. Using the example library
     location, the files should be in the following location:
 
-	* `SDL2` - `<work folder>\SDL2-2.0.12\lib\x64`
+	* `SDL2` - `<work folder>\SDL2-2.0.16\lib\x64`
 	* `SDL2_mixer` - `<work folder>\SDL2_mixer-2.0.4\lib\x64`
 
 **Success!** You should now be able to run the game.
@@ -175,7 +175,7 @@ Then, assuming you have already obtained the `SDL2` and `SDL2_mixer` libraries a
 1. Download the `SDL2` development library as a gzipped file:
 
 	* Open the [SDL2 download page](https://www.libsdl.org/download-2.0.php)
-    * In the section `Development Libraries`, select `SDL2-devel-2.0.12-mingw.tar.gz (MinGW 32/64-bit)`
+    * In the section `Development Libraries`, select `SDL2-devel-2.0.16-mingw.tar.gz (MinGW 32/64-bit)`
 
 2. Download the `SDL2_mixer` development library as a gzipped file:
 
@@ -190,7 +190,7 @@ Then, assuming you have already obtained the `SDL2` and `SDL2_mixer` libraries a
 
         ![MinGW-w64 extracting SDL](images/building-windows-mingw-4.gif)
 
-4. If everything went correctly, your `<work folder>\ext\SDL2` should look like this:
+4. If everything went correctly, your `<work folder>\ext\SDL2` should look like this (never mind the outdated versions):
 
     ![SDL2 folder contents](images/building-windows-ext-folder.png)
 
@@ -227,7 +227,7 @@ Then, assuming you have already obtained the `SDL2` and `SDL2_mixer` libraries a
 	Both libraries are available inside your library directory. Using the example library
     location, the files should be in the following location:
 
-	* `SDL2` - `<work folder>\ext\SDL2\SDL2-2.0.12\i686-w64-mingw32\bin`
+	* `SDL2` - `<work folder>\ext\SDL2\SDL2-2.0.16\i686-w64-mingw32\bin`
 	* `SDL2_mixer` - `<work folder>\ext\SDL2\SDL2_mixer-2.0.4\i686-w64-mingw32\bin`
 
 
