@@ -10,7 +10,7 @@ extraction folder. You can freely delete the `tmp` folder.
 
 ## Running Julius
 The first time you run Julius, the game will notify you that you need to point it to the game folder
-location. If you used Inno Setup Extractor, that would be the `app` folder, otherwise point the game to
+location, which should contain the file `c3.eng`, among others. If you used Inno Setup Extractor, that would be the `app` folder, otherwise point the game to
 wherever you downloaded the files to. After setting up the folder for the first time, you will not be
 asked to do so again.
 
