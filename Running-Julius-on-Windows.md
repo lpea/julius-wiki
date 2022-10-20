@@ -11,7 +11,7 @@ Doing so will make the mouse cursor disappear when using right-click to scroll.
    
 Instead, open `SierraLauncher.ini` and replace `Game1Exe=c3.exe` with the `Game1Exe=julius.exe`.
 
-Alternatively, you can check the `Disable right click to drag the map` option do disable right-click scrolling.
+Alternatively, you can check the `Disable right click to drag the map` option to disable right-click scrolling.
 
 ## Windows XP
 
