@@ -39,3 +39,14 @@ To get the Caesar 3 files from the GOG or CD-ROM version of the game, either use
    $ cp -r /Volumes/{CD}/Soundfx/* Exe/wavs
    ```
 5. Start Julius, and point the game to the `Exe` folder that was just extracted
+
+## Running Julius
+
+You may get a dialog saying Julius can't be opened because it was created by an unidentified developer:
+
+1. Locate `julius` in Applications folder (or wherever you installed it) using Finder
+2. Right-click on it and choose "open"
+3. You will be presented with similar-looking dialog, but this time there will be second button allowing you to run the application
+4. After that you will be able to start Julius without this trick
+
+Or: you can prevent this from happening by running the command: `xattr -d com.apple.quarantine ~/Downloads/julius*.dmg` before mounting the image (or `xattr -dr com.apple.quarantine /Applications/julius.app` (or wherever you installed it) after installing).
