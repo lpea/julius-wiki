@@ -73,7 +73,7 @@ Checking this option will replace the regular build control panel / sidebar with
 
 ### Fix immigration bug on very hard
 
-In Caesar 3, if you play on Very Hard difficulty level, people will get upset with you by default when your population is at least 200. However, any conditions in your city that might improve their happiness, such as no employment, high wages, etc, will not have any effect until your population reaches 300. This means that people will leave your city and you'll never reach 300. This can be overcome by ensuring there is a large number of immigrants on the way to bump you from 200 to over 300 population.
+In Caesar 3, if you play on Very Hard difficulty level, people will get upset with you by default when your population is at least 200. However, any conditions in your city that might improve their happiness, such as no unemployment, high wages, etc, will not have any effect until your population reaches 300. This means that people will leave your city and you'll never reach 300. This can be overcome by ensuring there is a large number of immigrants on the way to bump you from 200 to over 300 population.
 
 When you check this option, people will not get unhappy until your population reaches 300.
 
